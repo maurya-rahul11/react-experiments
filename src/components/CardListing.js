@@ -1,14 +1,16 @@
 import Card from "./Card";
 // import resDataArr from "../utils/mockData";
 
-const CardListing = ({restaurants}) => {
+const CardListing = (props) => {
+  const { restaurants } = props;
+
   return (
     <div className="card-listing-container">
-      {restaurants.map((restaurant) => {
-        return <Card key={restaurant.info.id} resData={restaurant} />;
-      })}
+      {restaurants.map((restaurant) => (
+        <Card key={restaurant.info.id} resData={restaurant} />
+      ))}
     </div>
-  )
+  );
 };
 
 export default CardListing;

@@ -48,6 +48,30 @@
     width: 100%;
 }
 
+.search-btn {
+    margin: 10px
+}
+
+.top-rated-restaurants-btn {
+    margin: 50px;
+}
+
+.login-btn {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.shimmer-container {
+    display: flex;
+}
+
+.shimmer-card {
+    width: 200px;
+    height: 400px;
+    padding: 3px;
+    margin: 10px;
+    background-color: rgb(230, 226, 217);
+}
 /* body {
     background-color: rgb(7, 5, 0);
     color: white;
